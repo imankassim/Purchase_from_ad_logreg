@@ -1,10 +1,17 @@
-# Purchase_from_ad_logreg
+# Purchase made after advertisement - Logistic Regression Model
 
-This dataset is from an company advertising their products (T-Shirts) online. 
-The data shows whether or not a social media user who viewed the ad bought the product or not.
+This model uses company data based on social media activity to determine whether or not a customer will purchase a T-shirt or not after seeing an advertisement.
 
-The data is stored in an Amazon S3 bucket - https://social-network-ads-dataset.s3.eu-west-2.amazonaws.com/Social_Network_Ads.csv
+## Getting Started
 
-This analysis can be used to focus ads on one specific group of people in order to keep costs down.
 
-I will be using a logistic regession model for the classification - where the goal is to predict whether the user will purchase the item or not.
+### Prerequisites
+
+The dataset is from a company advertising their T-shirts online, showing whether or not a social media user who viewed the ad also bought the product, or not.
+This data is stored in an Amazon S3 Bucket - https://social-network-ads-dataset.s3.eu-west-2.amazonaws.com/Social_Network_Ads.csv
+
+### Installing
+
+This model can be run in Google Colab, so no installation is necessary.
+
+
